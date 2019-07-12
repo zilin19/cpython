@@ -1,0 +1,16 @@
+# # mylist={1,2,3,4}
+# # myDictionary={"key":"value","key2":"value"}
+# #
+# myphones={"iphone x":1000,"sumsang s9":900}
+# # print(myphones)
+# # iphone_price=myphones["iphone x"]
+# # # access dic keys
+# # print("iphone price:"+str(iphone_price))
+# # # change key values
+# #
+# # myphones["iphone x"]=500
+# # print(myphones)
+# # myphones["iphone x"]=800
+# # print(myphones)
+# myphones.clear()
+# print(myphones)
