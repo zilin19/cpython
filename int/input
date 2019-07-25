@@ -1,0 +1,109 @@
+# stonenumber=0
+# if stonenumber>=4:
+#     print('获得了打败灭霸的力量')
+# elif 0<stonenumber<3:
+#     print('可以全员出动，殊死一搏')
+# else:
+#     print('没办法了，只能尝试呼叫惊奇队长')
+
+# import time
+#
+# print('亲爱的同学：')
+# time.sleep(1)
+#
+# print('我们愉快地通知您，您已获准在霍格沃茨魔法学校就读。')
+# time.sleep(2)
+#
+# print('随信附上所需书籍及装备一览。')
+# time.sleep(1)
+#
+# print('学期定于九月一日开始。')
+# time.sleep(1)
+#
+# print('鉴于您对魔法世界的不熟悉，')
+# time.sleep(1)
+#
+# print('我们将指派魔咒学老师——吴枫教授带您购买学习用品。')
+# time.sleep(2)
+#
+# print('我们将于七月三十一日前静候您的猫头鹰带来的回信。')
+# time.sleep(2)
+#
+# print('校长（女）米勒娃·麦格谨上')
+# time.sleep(1)
+#
+# print('那么，您的选择是什么？ 1 接受，还是 2 放弃呢？')
+# time.sleep(2)
+#
+# choice=input('请输入您选择的数字：')
+#
+# if choice =='1':
+#     print('霍格沃茨欢迎您的到来。')
+#
+# else:
+#     print('您可是被梅林选中的孩子，我们不接受这个选项。')
+
+# input('请在以下四个选项【格兰芬多；斯莱特林；拉文克劳；赫奇帕奇】中，输入你想去的学院名字:')
+# name = input('请在以下四个选项【格兰芬多；斯莱特林；拉文克劳；赫奇帕奇】中，输入你想去的学院名字: ')
+# print(name +'学院欢迎你，小萌新!')
+# magic = input('厄里斯魔镜；时间转换器；飞天扫帚；隐形斗篷')
+# print(magic+'是我最想拥有的魔法！')
+# print('那么，您的选择是什么？ 1 接受，还是 2 放弃呢？')
+# print('那么，您的选择是什么？ 1 接受，还是 2 放弃呢？')
+#
+# choice = input('请输入您的选择：')
+# #变量赋值
+#
+# if choice == 1:
+# #条件判断:条件1
+#     print('霍格沃茨欢迎您的到来。')
+# #条件1的结果
+#
+# else:
+# #条件判断：其他条件
+#     print('您可是被梅林选中的孩子，我们不接受这个选项。')
+# #其他条件的结果
+# name = input('gao tiantian:zhangxu:gaozilin')
+# print(name+'shi ge hao ren')
+# print(type(float))
+# choice = input('请输入1或2:')
+# print(type(choice))
+# age = str(59)
+#
+# choice = input('请你猜一下斯内普教授的年龄：')
+#
+# if choice == age:
+#     print('猜对惹～你好厉害！ ヽ✿゜▽゜)ノ～～～')
+#
+# elif choice < age:
+#     print('斯内普的提示：你猜小了（；´д｀）ゞ。。。。')
+#
+# else:
+#     print('斯内普的提示：乃猜大了惹(＞﹏＜)～～')
+# choice = int(input('请输入您的选择：'))
+# if choice == 1:
+#     print('霍格沃茨欢迎您的到来')
+# else:
+#     print('您可是被梅林选中的孩子，我们不接受这个选项')
+# money = int(input('你下一个月的工资'))
+# if money >= 10000:
+#     print('我们做朋友')
+# else:
+#     print("砸门可以保持练习啊")
+money = int(input('你一个月工资多少钱？'))
+# 将输入的工资数（字符串），强制转换为整数
+
+if money >= 10000:
+    # 当工资数（整数）大于等于10000（整数）时
+    print('土豪我们做朋友吧！')
+elif 5000 < money < 10000:
+    print('我们都是搬砖族')
+elif money < 5000:
+    print('同志还需努力，我还忙，先撤离')
+
+# 打印if条件下的结果
+
+else:
+    # 当工资数（整数）小于10000（整数）时
+    print('我负责赚钱养家，你负责貌美如花～')
+# 打印else条件下
